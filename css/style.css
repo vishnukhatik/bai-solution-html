@@ -17706,6 +17706,9 @@ li.nav-item {
 .serviceSwiperCardLink:hover h3 {
 	color: #006ada !important;
 }
+.serviceSwiperCardLink:hover h4 {
+	color: #006ada !important;
+}
 
 .serviceSwiperCardLink.link {
 	-webkit-transition: all 0.3s;
@@ -25381,7 +25384,7 @@ svg[data-v-7f087220] {
 }
 
 @media (max-width: 575.98px) {
-	.swiper-slide.swiper-slide-next[data-v-ffba5d82],
+	.swiper-slide.swiper-slide-next,
   .swiper-slide.swiper-slide[data-v-ffba5d82]:hover {
 		-webkit-box-shadow: 1px 5px 50px transparent;
 		box-shadow: 1px 5px 50px transparent;
@@ -25391,7 +25394,7 @@ svg[data-v-7f087220] {
 		padding: 10px;
 	}
 
-	.serviceSwiperCardLink.link[data-v-ffba5d82] {
+	.serviceSwiperCardLink.link {
 		-webkit-box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08) !important;
 		box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08) !important;
 	}
@@ -25401,13 +25404,13 @@ svg[data-v-7f087220] {
 		max-width: 100% !important;
 	}
 
-	.servicesSwiperWrapper[data-v-ffba5d82] {
+	.servicesSwiperWrapper{
 		margin-bottom: 2rem;
 	}
 }
 
 @media (max-width: 575.98px) {
-	.serviceSwiperCardLink.link[data-v-2cd20a91] {
+	.serviceSwiperCardLink.link {
 		padding-top: 20px;
 	}
 }
@@ -27130,62 +27133,75 @@ h5.point[data-v-9092cf60]:after {
 	padding: 0 32px
 }
 
-.swiper-slide.swiper-slide-next[data-v-e3cb4482] {
+.swiper-slide.swiper-slide-next{
 	-webkit-transition: all .5s;
 	transition: all .5s
 }
 
-.swiper-slide.swiper-slide-next[data-v-e3cb4482],
-.swiper-slide.swiper-slide[data-v-e3cb4482]:hover {
+.swiper-slide.swiper-slide-next,
+.swiper-slide.swiper-slide:hover {
 	-webkit-box-shadow: 1px 5px 50px rgba(0, 0, 0, .1);
 	box-shadow: 1px 5px 50px rgba(0, 0, 0, .1)
 }
 
 @media (max-width:575.98px) {
-	.swiper-slide.swiper-slide-next[data-v-e3cb4482],
-	.swiper-slide.swiper-slide[data-v-e3cb4482]:hover {
+	.swiper-slide.swiper-slide-next,
+	.swiper-slide.swiper-slide:hover {
 		-webkit-box-shadow: 1px 5px 50px transparent;
 		box-shadow: 1px 5px 50px transparent
 	}
-	.swiper-slide[data-v-e3cb4482] {
+	.swiper-slide {
 		padding: 10px
 	}
-	.serviceCardLink.link[data-v-e3cb4482] {
+	.serviceCardLink.link {
 		-webkit-box-shadow: 0 5px 15px rgba(0, 0, 0, .08)!important;
 		box-shadow: 0 5px 15px rgba(0, 0, 0, .08)!important
 	}
-	.swiper-slide[data-v-e3cb4482]:last-child {
+	.swiper-slide:last-child {
 		width: 100%!important;
 		max-width: 100%!important
 	}
 }
 
-.servicesSwiperWrapper[data-v-e3cb4482] {
+.servicesSwiperWrapper {
 	position: relative;
-	margin-top: -150px;
+	/* margin-top: -150px; */
 	z-index: 3
 }
 
-.servicesSwiperWrapper[data-v-96af1cc2] {
+.servicesSwiperWrapper {
 	text-align: center
 }
 
-.servicesSwiperWrapper ul[data-v-96af1cc2] {
+.servicesSwiperWrapper ul {
 	opacity: 0;
 	-webkit-transition: all .5s;
 	transition: all .5s
 }
 
-.servicesSwiperWrapper span.listStyle[data-v-96af1cc2] {
-	display: none
+.servicesSwiperWrapper span.listStyle{
+	/* display: none */
 }
 
-.servicesSwiperWrapper h3[data-v-96af1cc2] {
+.servicesSwiperWrapper h3 {
 	font-size: 1.3rem;
 	position: relative
 }
 
-.servicesSwiperWrapper h3[data-v-96af1cc2]:after {
+.servicesSwiperWrapper h3:after {
+	content: "";
+	position: absolute;
+	bottom: -15px;
+	left: 0;
+	right: 0;
+	margin: auto;
+	height: 2px;
+	width: 0;
+	-webkit-transition: all .5s;
+	transition: all .5s;
+	background: #006ada
+}
+.servicesSwiperWrapper h4:after {
 	content: "";
 	position: absolute;
 	bottom: -15px;
@@ -27199,7 +27215,7 @@ h5.point[data-v-9092cf60]:after {
 	background: #006ada
 }
 
-.serviceSwiperCardLink.link[data-v-96af1cc2] {
+.serviceSwiperCardLink.link {
 	position: relative;
 	text-align: center;
 	padding: 30px 20px;
@@ -27213,49 +27229,55 @@ h5.point[data-v-9092cf60]:after {
 	display: block
 }
 
-.serviceSwiperCardLink.link[data-v-96af1cc2]:hover {
+.serviceSwiperCardLink.link:hover {
 	-webkit-box-shadow: 0 10px 70px rgba(0, 0, 0, .107);
 	box-shadow: 0 10px 70px rgba(0, 0, 0, .107)
 }
 
-.serviceSwiperCardLink.link:hover h3[data-v-96af1cc2]:after {
+.serviceSwiperCardLink.link:hover h3:after {
+	width: 25%
+}
+.serviceSwiperCardLink.link:hover h4:after {
 	width: 25%
 }
 
-.serviceSwiperCard[data-v-96af1cc2] {
+.serviceSwiperCard {
 	-webkit-transform: translateY(22%);
 	transform: translateY(22%);
 	-webkit-transition: all .5s;
 	transition: all .5s
 }
 
-.serviceSwiperCardLink.link:hover .serviceSwiperCard[data-v-96af1cc2] {
+.serviceSwiperCardLink.link:hover .serviceSwiperCard {
 	-webkit-transform: translateY(0);
 	transform: translateY(0)
 }
 
-.serviceSwiperCardLink:hover ul[data-v-96af1cc2] {
+.serviceSwiperCardLink:hover ul {
 	opacity: 1
+}
+.opacity-1 {
+	opacity: 1 !important;
 }
 
 @media (max-width:575.98px) {
-	.serviceSwiperCardLink.link[data-v-96af1cc2] {
+	.serviceSwiperCardLink.link{
 		padding-top: 20px;
 		-webkit-box-shadow: 0 5px 15px rgba(0, 0, 0, .08)!important;
 		box-shadow: 0 5px 15px rgba(0, 0, 0, .08)!important
 	}
-	.mainCardScrollActive[data-v-96af1cc2] {
+	.mainCardScrollActive {
 		-webkit-box-shadow: 0 10px 70px rgba(0, 0, 0, .107);
 		box-shadow: 0 10px 70px rgba(0, 0, 0, .107)
 	}
-	.mainCardScrollActive.link h3[data-v-96af1cc2]:after {
+	.mainCardScrollActive.link h3:after {
 		width: 25%
 	}
-	.mainCardScrollActive.link .serviceSwiperCard[data-v-96af1cc2] {
+	.mainCardScrollActive.link .serviceSwiperCard {
 		-webkit-transform: translateY(0);
 		transform: translateY(0)
 	}
-	.mainCardScrollActive ul[data-v-96af1cc2] {
+	.mainCardScrollActive ul{
 		opacity: 1
 	}
 }
@@ -27264,8 +27286,8 @@ h5.point[data-v-9092cf60]:after {
     position: relative;
     text-align: center;
     padding: 30px 20px;
-    /* -webkit-box-shadow: 0 5px 10px rgba(0,0,0,.03);
-    box-shadow: 0 5px 10px rgba(0,0,0,.03); */
+    -webkit-box-shadow: 0 5px 10px rgba(0,0,0,.03);
+    box-shadow: 0 5px 10px rgba(0,0,0,.03); 
     z-index: 4;
     background: #fff;
     min-height: 375px;
@@ -27292,9 +27314,13 @@ h5.point[data-v-9092cf60]:after {
     -o-object-fit: contain;
     object-fit: contain;
 }
-.servicesSwiperWrapper h3 {
+.servicesSwiperWrapper h4 {
     font-size: 1.3rem;
-    position: relative;
+	position: relative;
+	font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 2rem;
+    margin-top: .5rem;
 }
 .servicesSwiperWrapper h3 {
     font-size: 1.75rem;
@@ -27317,4 +27343,7 @@ h5.point[data-v-9092cf60]:after {
     color: #000;
     -webkit-transition: all .5s;
     transition: all .5s;
+}
+.box-shadow-none{
+	box-shadow: none !important;
 }
