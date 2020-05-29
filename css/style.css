@@ -27991,3 +27991,207 @@ h5.point[data-v-9092cf60]:after {
   }
 
   
+  .serviceBannerWrapper[data-v-056a121a] {
+	position: relative;
+	z-index: 3;
+	width: 100%;
+	min-height: 620px;
+	height: 100vh;
+	background-size: cover;
+	background-position: 50%;
+	background-color: hsla(0, 0%, 98%, .7);
+	background-blend-mode: overlay;
+	text-shadow: 0 0 15px rgba(0, 0, 0, .3)
+}
+
+.serviceBannerWrapper h1[data-v-056a121a] {
+	width: 70%!important;
+	font-size: 4rem;
+	font-weight: 900;
+	color: #fff;
+	text-transform: uppercase
+}
+
+.serviceBannerWrapper h1 span[data-v-056a121a] {
+	font-weight: 900;
+	text-transform: lowercase
+}
+
+.serviceBannerWrapper h3[data-v-056a121a] {
+	font-size: 1.5rem;
+	color: #fff;
+	text-transform: uppercase
+}
+
+.bannerOverlay[data-v-056a121a] {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: -webkit-gradient(linear, left top, left bottom, from(#fff), color-stop(50%, hsla(0, 0%, 100%, 0)), color-stop(50%, hsla(0, 0%, 100%, 0)), to(#fff));
+	background: linear-gradient(180deg, #fff 0, hsla(0, 0%, 100%, 0) 50%, hsla(0, 0%, 100%, 0) 0, #fff);
+	filter: progid: DXImageTransform.Microsoft.gradient(startColorstr="#ffffff", endColorstr="#ffffff", GradientType=0)
+}
+
+.bannerLogoWrapper[data-v-056a121a] {
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	width: 50%;
+	z-index: -1;
+	height: 210px
+}
+
+.bannerLogoWrapper img[data-v-056a121a] {
+	-webkit-transform: translateY(-25%);
+	transform: translateY(-25%)
+}
+
+#stats[data-v-87f89168] {
+	display: none!important
+}
+
+.subServiceContentHeader h2[data-v-48433488] {
+	text-transform: capitalize;
+	margin-bottom: 2rem
+}
+
+.subServiceContentHeader h4[data-v-48433488] {
+	color: #7c7c7c;
+	width: 70%;
+	margin: auto auto 3rem;
+	font-size: 1.2rem
+}
+
+.subServiceContentHeader[data-v-48433488] {
+	text-align: center
+}
+
+.uiSubContentCardTitle[data-v-48433488] {
+	color: #006ada;
+	font-size: 2rem;
+	font-weight: 600;
+	line-height: 2.5rem;
+	text-transform: capitalize
+}
+
+.uiSubContentCardText[data-v-48433488] {
+	padding-top: 10px;
+	font-size: 18px;
+	color: #000;
+	font-weight: 500
+}
+
+.uiSubContentImg[data-v-48433488] {
+	width: 100%;
+	height: auto;
+	text-align: center
+}
+
+.uiSubContentImg img[data-v-48433488] {
+	width: 77%;
+	height: auto
+}
+
+.uiSubContentCard .row[data-v-48433488] {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center
+}
+
+.uiSubContentCardBody[data-v-48433488] {
+	padding: 4px 20px 4px 100px
+}
+
+.uiSubContentCard[data-v-48433488]:hover {
+	-webkit-box-shadow: 0 2px 3px rgba(0, 0, 0, .2);
+	box-shadow: 0 2px 3px rgba(0, 0, 0, .2)
+}
+
+@media screen and (max-width:560px) {
+	.uiSubContentCardBody[data-v-48433488] {
+		padding-left: 20px;
+		text-align: center
+	}
+	.uiSubContentCard[data-v-48433488] {
+		margin-bottom: 1.5rem
+	}
+	.subServiceContent[data-v-48433488] {
+		margin-top: 3rem
+	}
+	.subServiceContentHeader h4[data-v-48433488] {
+		width: 90%
+	}
+}
+
+.view-section-container[data-v-297c29d5] {
+	padding: 0 30px
+}
+
+.view-section-container .case-study-image-div[data-v-297c29d5] {
+	position: relative;
+	z-index: 1;
+	width: 100%;
+	height: 100%
+}
+
+.view-section-container .case-study-image-div img[data-v-297c29d5] {
+	width: 100%;
+	height: 100%;
+	-o-object-fit: cover;
+	object-fit: cover
+}
+
+.view-section-container .case-study-right-container[data-v-297c29d5] {
+	padding: 20px;
+	position: relative
+}
+
+.case-study-right-container p[data-v-297c29d5] {
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	font-size: 20px;
+	font-weight: 600;
+	color: #006ada
+}
+
+.case-study-right-container h2[data-v-297c29d5] {
+	text-transform: uppercase;
+	font-size: 39px;
+	letter-spacing: 7px;
+	font-weight: 600;
+	color: #000;
+	margin-bottom: 26px;
+	text-align: left
+}
+
+.site_button_wrapper .text-div[data-v-297c29d5] {
+	display: inline-block
+}
+
+.site_button_wrapper .text-div p[data-v-297c29d5] {
+	color: #000;
+	font-size: 18px;
+	margin: 0;
+	-webkit-transform: translateY(-5px);
+	transform: translateY(-5px)
+}
+
+#dot-pattern-2-wrapper {
+	position: absolute;
+	width:100%;
+	height:80%;
+	overflow:hidden;
+   /*-webkit-filter: blur(20px);*/
+  }
+  canvas {
+	background:#f00;
+  }
