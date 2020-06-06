@@ -18937,7 +18937,7 @@ div.customArrowLeft:hover .st1.two {
 
 @media (max-width: 1199.98px) {
 	section {
-		min-height: 100% !important;
+		/* min-height: 100% !important; */
 	}
 
 	.translateX {
@@ -27960,8 +27960,8 @@ h5.point[data-v-9092cf60]:after {
 	}
 }
 .shape4 {
-	-webkit-animation: animationFramesOne 20s infinite linear;
-	animation: animationFramesOne 20s infinite linear;
+	-webkit-animation: animationFramesOne 10s infinite linear;
+	animation: animationFramesOne 10s infinite linear;
   }
   
   @-webkit-keyframes animationFramesOne {
@@ -27970,19 +27970,19 @@ h5.point[data-v-9092cf60]:after {
 	}
   
 	20% {
-	  -webkit-transform: translate(73px, -1px) ;
+	  -webkit-transform: translate(13px, -1px) ;
 	}
   
 	40% {
-	  -webkit-transform: translate(141px, 72px) ;
+	  -webkit-transform: translate(21px, 7px) ;
 	}
   
 	60% {
-	  -webkit-transform: translate(83px, 122px) ;
+	  -webkit-transform: translate(13px, 12px) ;
 	}
   
 	80% {
-	  -webkit-transform: translate(-40px, 72px) ;
+	  -webkit-transform: translate(-4px, 7px) ;
 	}
   
 	100% {
@@ -29042,4 +29042,27 @@ h5.point[data-v-9092cf60]:after {
 			transform: scale(1)
 		}
 	}
-	
+	a.link {
+		text-decoration: none!important;
+		color: inherit!important;
+		display: inline-block;
+	}
+	/* footer shap */
+	.shape {
+		position: absolute;
+		pointer-events: none;
+		right: 0;
+		bottom: 0;
+		left: 0;
+	}
+	.shape > svg {
+		-webkit-transform: scale(2);
+		transform: scale(2);
+		width: 100%;
+		height: auto;
+		-webkit-transform-origin: top center;
+		transform-origin: top center;
+	}
+	.text-footer{
+		color: #0a0a0a;
+	}
