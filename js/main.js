@@ -555,8 +555,8 @@
 									content: "Handle changing environment and ecosystem advancements."
 								}],
 								seo: {
-									title: "doodleblue innovations | Technology & ecosystem audit Services | India, USA",
-									description: "doodleblue offers a digital audit to uncover insights and observations that can add value for a seamless integration of suites to enrich experiments",
+									title: "baisolution | Technology & ecosystem audit Services | India, USA",
+									description: "baisolution offers a digital audit to uncover insights and observations that can add value for a seamless integration of suites to enrich experiments",
 									keywords: "digital transformation technologies, technology audit services, technology eco system audit",
 									image: "".concat(n(382)),
 									twitterImage: "https://doodlebluebytes.com/social-share-images/services/digitaltransformation/doodleblue-TechandecoSystem.png",
@@ -584,7 +584,7 @@
 									content: "Take current trends into account built on unyielding market research to harness complete digital potential."
 								}],
 								seo: {
-									title: "doodleblue innovations | Digital-strategy Services | India, USA",
+									title: "baisolution | Digital-strategy Services | India, USA",
 									description: "Our Digital strategy team takes a customized approach to create a detailed strategy that delivers desired results.",
 									keywords: "digital strategy, digital advertising, digital transformation strategy, digital strategy company, digital strategy consulting companies",
 									image: "".concat(n(373)),
@@ -649,7 +649,7 @@
 									}
 								}],
 								seo: {
-									title: "doodleblue innovations | Digital marketing services | India, USA",
+									title: "baisolution | Digital marketing services | India, USA",
 									description: "Our Digital marketing services provide compelling strategies that build a strong connection between brands and their potential customers through up to date market techniques",
 									keywords: "digital marketing agency, internet marketing company, digital marketing company, internet marketing service, top digital marketing agencies, digital marketing services, online digital marketing company, online marketing companies, online marketing agency, digital marketing companies in india, digital marketing companies in chennai",
 									image: "".concat(n(374)),
@@ -678,7 +678,7 @@
 									content: "Harness big data analytics to drive better business decisions, and understand customer behaviour and preference."
 								}],
 								seo: {
-									title: "doodleblue innovations | Digital Analytics services | India, USA",
+									title: "baisolution | Digital Analytics services | India, USA",
 									description: "Our Digital Analytics services uncover relevant insights to optimize operations, guide empirical data-driven decisions and exploit data opportunities to maximize impact.",
 									keywords: "data analysis, data analytics services, data visualization services, data analytics services in india, data analytics services in chennai",
 									image: "".concat(n(372)),
