@@ -25026,7 +25026,7 @@ header.responsiveHeader[data-v-ff135344] {
 }
 
 .responsiveHeader .logoWrapper img[data-v-ff135344] {
-	width: 50px;
+	width: 100px;
 	height: auto;
 	margin: auto;
 }
@@ -25069,7 +25069,7 @@ header.responsiveHeader[data-v-ff135344] {
 
 @media (max-width: 560px) {
 	.responsiveHeader .logoWrapper img[data-v-ff135344] {
-		width: 50px;
+		width: 100px;
 		height: auto;
 		margin: auto;
 	}
@@ -26593,6 +26593,7 @@ h5.point[data-v-9092cf60]:after {
 	text-align: right;
 	letter-spacing: -10px;
 	color: #eee;
+	z-index: -1;
 }
 
 .link[data-v-0fe271ba]:hover,h5>a[data-v-0fe271ba] {
